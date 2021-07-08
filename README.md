@@ -15,7 +15,7 @@ el文档标签语言，独立的解析引擎，帮助文档人员快速书写自
 ```
 npm install el-xskj
 ```
-* script安装
+* script浏览器引入----el.min.js在dist目录下的el.min.js
 ```
 <script src="el.min.js"></script>
 ```
