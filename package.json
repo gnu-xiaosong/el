@@ -2,7 +2,7 @@
     "name": "el-xskj",
     "version": "1.1.0",
     "description": "这是一款全新的文档标签语言，独立的解析引擎，致力于对非开发者文档编写人员，提供高效，快捷的成形文档工具。可拓展性强，插件化思想应用，可嵌入多种语言环境下使用。",
-    "main": "main.js",
+    "main": "index.js",
     "scripts": {
         "start": "webpack",
         "translate": "babel src --out-dir dist",
