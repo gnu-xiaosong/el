@@ -20,6 +20,10 @@
             height: 300px;
         }
         
+        span {
+            vertical-align: top;
+        }
+        
         #text {
             border-top: 2px solid red;
             border-bottom: 2px solid red;
@@ -34,15 +38,20 @@
 
     <div class="content">
         <div class="t">
-            <br> 请输入el语言:
-
+            <br>
+            <span>请输入el语言:</span>
             <textarea id="t" type="text" onchange="jx()" cols="30" rows="10"></textarea>
 
 
             <div>
                 <h2>解析结果：</h2>
+
+
                 <div id="text">
                 </div>
+
+
+
             </div>
         </div>
 

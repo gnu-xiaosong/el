@@ -395,8 +395,8 @@ var text = [
     //    代码片段
     {
         // 匹配 数组
-        reg_array: ["```(.*)```", ],
-        html_generate_array: ['<pre  style="background-color: black;color: aliceblue; padding-left:20px;padding-top:10px;padding-bottom:40px;width: 925px;border-radius: 5px;"><samp style="display:block; margin-top:5px;margin-left: 20px;">text</samp></pre>'],
+        reg_array: ["```([\\s\\S]*)```", ],
+        html_generate_array: ['<pre style="background-color: rgb(252, 252, 252); border: 1px solid rgb(225, 225, 232);"><code>text</code></pre >'],
         description: "[代码片段]",
         example: "",
         parse_generate: function(data, reg) {

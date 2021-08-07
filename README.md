@@ -74,3 +74,5 @@ var data2=app1.el(data);
 
 </script>
 ```
+
+# 2021.8.7-修复语法 bug
